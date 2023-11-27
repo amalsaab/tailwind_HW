@@ -1,4 +1,3 @@
-import React from 'react'
 import Benefit from './Benefit'
 function Services() {
   return (
@@ -9,7 +8,7 @@ function Services() {
             <p>Explain what makes your product or service great.</p>
             <p>Talk about features in a way that highlights the real value people get out of them.</p>
             </div>
-            <div className='flex gap-5 max-sm:flex-col'>
+            <div className='flex gap-5 flex-wrap items-center justify-center'>
                 <Benefit src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/freshgoods/b41bc87d-freshgoods-benefit2-icon_1000000000000000000028.png"
                 title="Benefit 1" text="For example, restaurants and bakeries could outline the health benefits of their all-natural ingredients." />
                 <Benefit src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/freshgoods/3a18a275-freshgoods-benefit1-icon_1000000000000000000028.png"
